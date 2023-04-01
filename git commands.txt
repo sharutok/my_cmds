@@ -1,0 +1,16 @@
+git diff (SHOWS THE DIFFRENCE BETWEEN REMOTE AND LOCAL)
+
+git remote add orgin https://github.com/sharutok/IchirakuRamen-Backend.git (ADD REPO URL TO ORGIN) \
+git remote -v (SHOWS ALL REMOTE REPOS CONNECTED)
+git push -u orgin master https://github.com/sharutok/IchirakuRamen-Backend.git
+git push
+
+--------git branch----------
+git branch (SHOWS ALL BRANCHES)
+git checkout -b feature (SWITCH BETWEEN BRANCHES)
+
+
+
+--------git pull------------
+git reset --hard && git pull
+git pull

@@ -1,0 +1,7 @@
+pm2 start server.js
+pm2 monit
+pm2 logs
+pm2 reload server.js
+pm2 stop server.js
+pm2 delete server.js
+pm2 start server.js -i -1

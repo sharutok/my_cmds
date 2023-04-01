@@ -1,0 +1,5 @@
+conda create --prefix ./env pandas matplotlib scikit-learn
+
+
+
+

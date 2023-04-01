@@ -1,0 +1,4 @@
+Production settings
+serve -l 3040 -s build
+serve -l 3000 -s build
+"start": "set PORT=3040 && react-scripts start",

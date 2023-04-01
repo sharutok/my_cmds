@@ -1,0 +1,1 @@
+"start:dev":"set process.NODE_ENV&& nodemon server.js"

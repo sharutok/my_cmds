@@ -1,0 +1,9 @@
+const { Op } = require("sequelize");
+npm install --save sequelize
+npm i sequelize-cli --save
+sequelize init
+sequelize db:create
+sequelize db:drop
+sequelize model:generate --name oracle_to_mysql1 --attributes supplier_number:string
+sequelize db:migrate:undo --name 20211209054858-create-oracle-to-mysql-1.js  && sequelize db:migrate
+sequelize db:drop && sequelize db:create && sequelize db:migrate:undo:all && sequelize db:migrate

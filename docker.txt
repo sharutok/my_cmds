@@ -1,0 +1,9 @@
+//Build
+$ docker build -t test_img .
+
+//Run
+docker run -it -p 3535:3535 --name test_app test_img
+
+//DELETE IMAGE
+
+docker image rm d00e5ed87b87 -f

@@ -1,0 +1,23 @@
+# create virtual venv
+python -m venv fped_kiosk
+
+#if moduleNotFoundError
+py -m ensurepip --upgrade
+
+#create django project
+django-admin startproject projectname
+
+#create app
+python manage.py startapp appname
+ 	
+#run server
+python manage.py runserver
+
+#run migration
+python manage.py migrate
+
+#create super user
+python manage.py createsuperuser
+
+#create migration
+python manage.py makemigration

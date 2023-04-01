@@ -1,0 +1,20 @@
+CONTINERS are created using IMAGES
+
+basic command 
+
+docker build .
+
+docker ps //show only running containers
+docker ps -a //show all
+
+docker run -p 3000:5000 run_drum -> ATTACHED(can see logs or error)
+docker run -p 3000:5000 -d run_drum ->DETACHED
+
+docker logs run_drum //get only logs 
+docker logs -f run_drum //keep on getting logs with attched mode
+
+docker start run_drum -> DETACHED()
+docker start run_drum 
+docker attach run_drum //attach containers
+
+docker stop run_drum
